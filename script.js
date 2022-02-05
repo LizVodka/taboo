@@ -22,7 +22,7 @@ $(function() {
     function output() {
         $('h2').html(card[1]);
         txt = '';
-        for (let index = 2; index < card.length; index++) {
+        for (let index = 2; index <= 6; index++) {
             txt += '<tr><td>'+card[index]+'</td></tr>';
         };
         $('tbody').html(txt);
